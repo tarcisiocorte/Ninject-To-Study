@@ -1,0 +1,4 @@
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\bin\Debug\TC.Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\bin\Debug\TC.Ioc.Core.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\obj\Debug\TC.Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\obj\Debug\TC.Ioc.Core.pdb

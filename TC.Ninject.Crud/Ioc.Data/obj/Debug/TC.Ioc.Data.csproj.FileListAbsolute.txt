@@ -1,0 +1,8 @@
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\obj\Debug\TC.Ioc.Data.csprojResolveAssemblyReference.cache
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\Ioc.Data.dll.config
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\Ioc.Data.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\Ioc.Data.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\TC.Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\TC.Ioc.Core.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\obj\Debug\Ioc.Data.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\obj\Debug\Ioc.Data.pdb

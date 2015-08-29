@@ -1,0 +1,10 @@
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\obj\Debug\TC.Ioc.Service.csprojResolveAssemblyReference.cache
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\Ioc.Service.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\Ioc.Service.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\Ioc.Data.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\TC.Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\EntityFramework.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\TC.Ioc.Core.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\bin\Debug\Ioc.Data.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\obj\Debug\Ioc.Service.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Service\obj\Debug\Ioc.Service.pdb

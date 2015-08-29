@@ -1,0 +1,5 @@
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\bin\Debug\Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\bin\Debug\Ioc.Core.pdb
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\obj\Debug\Ioc.Core.csprojResolveAssemblyReference.cache
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\obj\Debug\Ioc.Core.dll
+C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Core\obj\Debug\Ioc.Core.pdb
