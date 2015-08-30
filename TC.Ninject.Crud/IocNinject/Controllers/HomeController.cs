@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using Ioc.Service;
+using TC.Ioc.Service;
 
 namespace Ioc.Web.Controllers
 {
@@ -18,8 +18,5 @@ namespace Ioc.Web.Controllers
         {
             this.userService = userService;
         }
-
-      
-
     }
 }

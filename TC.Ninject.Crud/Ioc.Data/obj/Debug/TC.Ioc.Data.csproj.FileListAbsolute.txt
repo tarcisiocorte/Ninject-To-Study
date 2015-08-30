@@ -6,3 +6,11 @@ C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperatio
 C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\bin\Debug\TC.Ioc.Core.pdb
 C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\obj\Debug\Ioc.Data.dll
 C:\Users\TCosta\Documents\Visual Studio 2012\Projects\CurdOperation\CurdOperation\Ioc.Data\obj\Debug\Ioc.Data.pdb
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\bin\Debug\Ioc.Data.dll.config
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\bin\Debug\Ioc.Data.dll
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\bin\Debug\Ioc.Data.pdb
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\bin\Debug\TC.Ioc.Core.dll
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\bin\Debug\TC.Ioc.Core.pdb
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\obj\Debug\TC.Ioc.Data.csprojResolveAssemblyReference.cache
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\obj\Debug\Ioc.Data.dll
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\Ioc.Data\obj\Debug\Ioc.Data.pdb

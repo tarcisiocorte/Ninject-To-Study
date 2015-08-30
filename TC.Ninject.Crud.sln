@@ -1,11 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 2012
+# Visual Studio 2013
+VisualStudioVersion = 12.0.21005.1
+MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Ioc.Core", "TC.Ninject.Crud\Ioc.Core\TC.Ioc.Core.csproj", "{624694D1-4A1E-42E2-8E9A-BC8A522981D2}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Ioc.Data", "TC.Ninject.Crud\Ioc.Data\TC.Ioc.Data.csproj", "{6253301F-739C-4170-8D2D-C8FE7F04A13E}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Ioc.Service", "TC.Ninject.Crud\Ioc.Service\TC.Ioc.Service.csproj", "{34A3A171-1481-4888-9FDF-8D5723EE1B37}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TC.Ioc.Web", "TC.Ninject.Crud\IocNinject\TC.Ioc.Web.csproj", "{369E2B98-4041-4EAF-A724-0D49820133A3}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -25,6 +29,10 @@ Global
 		{34A3A171-1481-4888-9FDF-8D5723EE1B37}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{34A3A171-1481-4888-9FDF-8D5723EE1B37}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{34A3A171-1481-4888-9FDF-8D5723EE1B37}.Release|Any CPU.Build.0 = Release|Any CPU
+		{369E2B98-4041-4EAF-A724-0D49820133A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{369E2B98-4041-4EAF-A724-0D49820133A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{369E2B98-4041-4EAF-A724-0D49820133A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{369E2B98-4041-4EAF-A724-0D49820133A3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

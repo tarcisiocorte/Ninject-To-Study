@@ -2,11 +2,11 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Web.Mvc;
-using Ioc.Service;
-using Ioc.Web.Models;
-using Ioc.Core.Data;
+using TC.Ioc.Service;
+using TC.Ioc.Web.Models;
+using TC.Ioc.Core.Data;
 
-namespace Ioc.Web.Controllers
+namespace TC.Ioc.Web.Controllers
 {
     public class UserController : Controller
     {
@@ -23,10 +23,10 @@ namespace Ioc.Web.Controllers
         {
             IEnumerable<UserModel> users = userService.GetUsers().Select(u => new UserModel
             {
-                FirstName = u.UserProfile.FirstName,
-                LastName = u.UserProfile.LastName,
-                Email = u.Email,
-                Address = u.UserProfile.Address,
+                firstName = u.UserProfile.firstName,
+                lastName = u.UserProfile.lastName,
+                email = u.email,
+                address = u.UserProfile.address,
                 ID = u.ID
             });
             return View(users);
@@ -39,12 +39,12 @@ namespace Ioc.Web.Controllers
             if (id.HasValue && id != 0)
             {
                 User userEntity = userService.GetUser(id.Value);
-                model.FirstName = userEntity.UserProfile.FirstName;
-                model.LastName = userEntity.UserProfile.LastName;
-                model.Address = userEntity.UserProfile.Address;
-                model.Email = userEntity.Email;
-                model.UserName = userEntity.UserName;
-                model.Password = userEntity.Password;
+                model.firstName = userEntity.UserProfile.firstName;
+                model.lastName = userEntity.UserProfile.lastName;
+                model.address = userEntity.UserProfile.address;
+                model.email = userEntity.email;
+                model.name = userEntity.name;
+                model.password = userEntity.password;
             }
             return View(model);
         }
@@ -56,19 +56,19 @@ namespace Ioc.Web.Controllers
             {
                 User userEntity = new User
                 {
-                    UserName = model.UserName,
-                    Email = model.Email,
-                    Password = model.Password,
-                    AddedDate = DateTime.UtcNow,
-                    ModifiedDate = DateTime.UtcNow,
+                    name = model.name,
+                    email = model.email,
+                    password = model.password,
+                    createDate = DateTime.UtcNow,
+                    modifiedDate = DateTime.UtcNow,
                     IP = Request.UserHostAddress,
                     UserProfile = new UserProfile
-                    {
-                        FirstName = model.FirstName,
-                        LastName = model.LastName,
-                        Address = model.Address,
-                        AddedDate = DateTime.UtcNow,
-                        ModifiedDate = DateTime.UtcNow,
+                    { 
+                        firstName = model.firstName,
+                        lastName = model.lastName,
+                        address = model.address,
+                        createDate = DateTime.UtcNow,
+                        modifiedDate = DateTime.UtcNow,
                         IP = Request.UserHostAddress
                     }
                 };
@@ -81,15 +81,15 @@ namespace Ioc.Web.Controllers
             else
             {
                 User userEntity = userService.GetUser(model.ID);
-                userEntity.UserName = model.UserName;
-                userEntity.Email = model.Email;
-                userEntity.Password = model.Password;
-                userEntity.ModifiedDate = DateTime.UtcNow;
+                userEntity.name = model.name;
+                userEntity.email = model.email;
+                userEntity.password = model.password;
+                userEntity.modifiedDate = DateTime.UtcNow;
                 userEntity.IP = Request.UserHostAddress;
-                userEntity.UserProfile.FirstName = model.FirstName;
-                userEntity.UserProfile.LastName = model.LastName;
-                userEntity.UserProfile.Address = model.Address;
-                userEntity.UserProfile.ModifiedDate = DateTime.UtcNow;
+                userEntity.UserProfile.firstName = model.firstName;
+                userEntity.UserProfile.lastName = model.lastName;
+                userEntity.UserProfile.address = model.address;
+                userEntity.UserProfile.modifiedDate = DateTime.UtcNow;
                 userEntity.UserProfile.IP = Request.UserHostAddress;
                 userService.UpdateUser(userEntity);
                 if (userEntity.ID > 0)
@@ -108,12 +108,12 @@ namespace Ioc.Web.Controllers
             {
                 User userEntity = userService.GetUser(id.Value);
                // model.ID = userEntity.ID;
-                model.FirstName = userEntity.UserProfile.FirstName;
-                model.LastName = userEntity.UserProfile.LastName;
-                model.Address = userEntity.UserProfile.Address;
-                model.Email = userEntity.Email;
-                model.AddedDate = userEntity.AddedDate;
-                model.UserName = userEntity.UserName;
+                model.firstName = userEntity.UserProfile.firstName;
+                model.lastName = userEntity.UserProfile.lastName;
+                model.address = userEntity.UserProfile.address;
+                model.email = userEntity.email;
+                model.createDate = userEntity.createDate;
+                model.name = userEntity.name;
             }
             return View(model);
         }
@@ -124,12 +124,12 @@ namespace Ioc.Web.Controllers
             if (id != 0)
             {
                 User userEntity = userService.GetUser(id);                
-                model.FirstName = userEntity.UserProfile.FirstName;
-                model.LastName = userEntity.UserProfile.LastName;
-                model.Address = userEntity.UserProfile.Address;
-                model.Email = userEntity.Email;
-                model.AddedDate = userEntity.AddedDate;
-                model.UserName = userEntity.UserName;
+                model.firstName = userEntity.UserProfile.firstName;
+                model.lastName = userEntity.UserProfile.lastName;
+                model.address = userEntity.UserProfile.address;
+                model.email = userEntity.email;
+                model.createDate = userEntity.createDate;
+                model.name = userEntity.name;
             }
             return View(model);
         }

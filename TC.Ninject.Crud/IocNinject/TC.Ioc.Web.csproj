@@ -162,17 +162,17 @@
     <Content Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\Ioc.Core\Ioc.Core.csproj">
+    <ProjectReference Include="..\Ioc.Core\TC.Ioc.Core.csproj">
       <Project>{624694d1-4a1e-42e2-8e9a-bc8a522981d2}</Project>
-      <Name>Ioc.Core</Name>
+      <Name>TC.Ioc.Core</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Ioc.Data\Ioc.Data.csproj">
+    <ProjectReference Include="..\Ioc.Data\TC.Ioc.Data.csproj">
       <Project>{6253301f-739c-4170-8d2d-c8fe7f04a13e}</Project>
-      <Name>Ioc.Data</Name>
+      <Name>TC.Ioc.Data</Name>
     </ProjectReference>
-    <ProjectReference Include="..\Ioc.Service\Ioc.Service.csproj">
+    <ProjectReference Include="..\Ioc.Service\TC.Ioc.Service.csproj">
       <Project>{34a3a171-1481-4888-9fdf-8d5723ee1b37}</Project>
-      <Name>Ioc.Service</Name>
+      <Name>TC.Ioc.Service</Name>
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>

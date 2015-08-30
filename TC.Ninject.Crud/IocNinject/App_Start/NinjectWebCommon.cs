@@ -5,9 +5,9 @@ namespace Ioc.Web.App_Start
 {
     using System;
     using System.Web;
-    using Ioc.Core.Data;
-    using Ioc.Data;
-    using Ioc.Service;
+    using TC.Ioc.Core.Data;
+    using TC.Ioc.Data;
+    using TC.Ioc.Service;
     using Microsoft.Web.Infrastructure.DynamicModuleHelper;
     using Ninject;
     using Ninject.Web.Common;
