@@ -1,4 +1,4 @@
-﻿@model IEnumerable<Ioc.Web.Models.UserModel>
+﻿@model IEnumerable<TC.Ioc.Web.Models.UserModel>
 
 <div class="book-example panel panel-primary">
     <div class="panel-heading panel-head">Users Listing</div>
@@ -13,7 +13,7 @@
                     @Html.DisplayName("Name")
                 </th>
                 <th>
-                    @Html.DisplayNameFor(model => model.Email)
+                    @Html.DisplayNameFor(model => model.email)
                 </th>
                 <th>
                     @Html.DisplayNameFor(model => model.address)
@@ -27,10 +27,10 @@
             {
                 <tr>
                     <td>
-                        @Html.DisplayFor(modelItem => item.FirstName) @Html.DisplayFor(modelItem=>item.LastName)
+                        @Html.DisplayFor(modelItem => item.firstName) @Html.DisplayFor(modelItem=>item.lastName)
                     </td>
                     <td>
-                        @Html.DisplayFor(modelItem => item.Email)
+                        @Html.DisplayFor(modelItem => item.email)
                     </td>
                     <td>
                         @Html.DisplayFor(modelItem => item.address)

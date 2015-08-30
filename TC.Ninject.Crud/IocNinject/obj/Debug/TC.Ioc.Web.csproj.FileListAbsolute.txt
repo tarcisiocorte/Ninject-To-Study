@@ -1,4 +1,3 @@
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\obj\Debug\TC.Ioc.Web.csprojResolveAssemblyReference.cache
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\IocNinject.dll.config
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\IocNinject.dll
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\IocNinject.pdb
@@ -15,16 +14,12 @@ C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\TC.Ioc.Core.pdb
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Ioc.Data.pdb
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Ioc.Service.pdb
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\EntityFramework.xml
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Ninject.xml
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Ninject.Web.Common.xml
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Ninject.Web.Mvc.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\Microsoft.Web.Infrastructure.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.Helpers.xml
-C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.Mvc.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.Razor.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.WebPages.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.WebPages.Deployment.xml
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\bin\System.Web.WebPages.Razor.xml
+C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\obj\Debug\TC.Ioc.Web.csprojResolveAssemblyReference.cache
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\obj\Debug\IocNinject.dll
 C:\Programming\Ninject-To-Study\Ninject-To-Study\TC.Ninject.Crud\IocNinject\obj\Debug\IocNinject.pdb

@@ -1,7 +1,7 @@
 ﻿using System.Web;
 using System.Web.Mvc;
 
-namespace Ioc.Web
+namespace TC.Ioc.Web
 {
     public class FilterConfig
     {

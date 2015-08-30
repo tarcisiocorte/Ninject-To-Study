@@ -5,7 +5,7 @@ using System.Web;
 using System.Web.Mvc;
 using TC.Ioc.Service;
 
-namespace Ioc.Web.Controllers
+namespace TC.Ioc.Web.Controllers
 {
     public class HomeController : Controller
     {

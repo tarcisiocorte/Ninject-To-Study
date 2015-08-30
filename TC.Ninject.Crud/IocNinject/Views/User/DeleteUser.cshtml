@@ -1,4 +1,4 @@
-﻿@model Ioc.Web.Models.UserModel
+﻿@model TC.Ioc.Web.Models.UserModel
 
 @{
     ViewBag.Title = "Delete User";
@@ -11,28 +11,28 @@
         <h1>@ViewBag.ErrorMessage</h1>
         <div class="form-horizontal">
             <div class="form-group">
-                @Html.LabelFor(model => model.FirstName, new { @class = "col-lg-2 control-label" })
+                @Html.LabelFor(model => model.firstName, new { @class = "col-lg-2 control-label" })
                 <div class="col-lg-9">
-                    @Html.DisplayFor(model => model.FirstName, new { @class = "form-control" })
+                    @Html.DisplayFor(model => model.firstName, new { @class = "form-control" })
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.LastName, new { @class = "col-lg-2 control-label" })
+                @Html.LabelFor(model => model.lastName, new { @class = "col-lg-2 control-label" })
                 <div class="col-lg-9">
-                    @Html.DisplayFor(model => model.LastName, new { @class = "form-control" })
+                    @Html.DisplayFor(model => model.lastName, new { @class = "form-control" })
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.UserName, new { @class = "col-lg-2 control-label" })
+                @Html.LabelFor(model => model.name, new { @class = "col-lg-2 control-label" })
                 <div class="col-lg-9">
-                    @Html.DisplayFor(model => model.UserName, new { @class = "form-control" })
+                    @Html.DisplayFor(model => model.name, new { @class = "form-control" })
                 </div>
             </div>
 
             <div class="form-group">
-                @Html.LabelFor(model => model.Email, new { @class = "col-lg-2 control-label" })
+                @Html.LabelFor(model => model.email, new { @class = "col-lg-2 control-label" })
                 <div class="col-lg-9">
                     @Html.DisplayFor(model => model.address, new { @class = "form-control" })
                 </div>
