@@ -39,6 +39,7 @@ namespace TC.Ioc.Web.Controllers
             if (id.HasValue && id != 0)
             {
                 User userEntity = userService.GetUser(id.Value);
+
                 model.firstName = userEntity.UserProfile.firstName;
                 model.lastName = userEntity.UserProfile.lastName;
                 model.address = userEntity.UserProfile.address;
